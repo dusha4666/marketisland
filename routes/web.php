@@ -16,3 +16,31 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('/zima', function () {
+    return view('zima');
+});
+
+Route::get('/index', function () {
+    return view('index');
+});
+
+Route::get('/bryuki', function () {
+    return view('bryuki');
+});
+
+Route::get('/footbolki', function () {
+    return view('footbolki');
+});
+
+Route::get('/krossovki', function () {
+    return view('krossovki');
+});
+
+Route::get('/remni', function () {
+    return view('remni');
+});
+
+Route::get('/sumki', function () {
+    return view('sumki');
+});

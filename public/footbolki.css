@@ -1,0 +1,134 @@
+*{
+	margin:0;
+	padding:0;
+}
+body{
+	background-color: #FFFFFF;
+}
+header{
+	height: 60px;
+	width: 100%;
+	background-color: #FFFFFF;
+	padding-top: 20px;
+}
+.Logo{
+	float: left;
+}
+.menu{
+	text-align: center;
+	margin-top: 35px;
+}
+li{
+	float: left;
+	padding-left: 30px;
+	padding-right: 30px;
+}
+.head_menu{
+	text-align: center;
+	overflow: hidden;
+	list-style: none;
+	margin: 0 auto;
+	padding-left: 0;
+	margin-left: 300px;
+}
+.m_e_a,.m_e_a_main{
+	color: black;
+	font-size: 20px;
+	font-family: sans-serif;
+}
+.m_e_a_main{
+	border-bottom: 4px solid #D92FBB;
+}
+a{
+	display: block;
+	text-decoration: none;
+}
+.inf{
+	float: right;
+	margin-top: -70px;
+	margin-right: 10px;
+}
+.inftxt{
+	color: #000000;
+	font-family: Arial;
+	font-size: 17px;
+	padding: 8px;
+}
+.Banner{
+	margin-top: 20px;
+	padding-bottom: 20px;
+}
+.bannerimg{
+	width: 100%;
+}
+.content{
+	margin: 0 auto;
+	width: 1200px;
+	height:350px;
+	padding-bottom: 50px;
+	padding-top: 20px;
+}
+.content2{
+	margin: 0 auto;
+	width: 1200px;
+	height:350px;
+	padding-bottom: 50px;
+	padding-top: 30px;
+	margin-top: 60px;
+}
+.content_txt{
+	color: black;
+	font-size: 18px;
+	font-family: sans-serif;
+	margin-top: 20px;
+	padding-bottom: 40px;
+}
+.content_element_txt{
+	font-size: 15px;
+	font-family: sans-serif;
+	color: black;
+	margin-top: 5px;
+}
+.content_element1,.content_element2,.content_element3{
+	height: 350px;
+	width: 290px;
+	background-color: white;
+}
+.content_element2{
+	margin-left: 455px;
+	margin-top: -350px;
+}
+.content_element3{
+	margin-left: 910px;
+	margin-top: -350px;
+}
+footer{
+	width: 100%;
+	height: 100px;
+	background-color: #D3DBE3;
+	padding-top:10px;
+}
+.footer_logo1{
+	margin-left: 40px;
+}
+.footer_logo2{
+	float: right;
+	margin-right: 40px;
+	margin-top: -80px;
+}
+.footer_txt{
+	text-align: center;
+	font-size: 15px;
+	font-family: sans-serif;
+	margin-top: -40px;
+}
+.form_button{
+	padding: 10px;
+	font-size: 15px;
+	font-family: sans-serif;
+	color: white;
+	border: none;
+	background-color: #D92FBB;
+	border-radius: 9px;
+	margin-top: 5px;
+}
