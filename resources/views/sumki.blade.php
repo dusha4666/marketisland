@@ -1,4 +1,5 @@
-<!DOCTYPE html>
+@section('content')
+@extends('layouts.header')
 	<html>
 		<head>
 			<meta charset = "UTF-8">
@@ -145,25 +146,4 @@
 						</div>
 						<div class = "content_element_txt">
 							3.000р
-							<form>
-								<button class = "form_button">
-									В корзину
-								</button>
-							</form>
-						</div>
-					</a>
-				</div>
-			</div>
-			<footer>
-				<div class = "footer_logo1">
-					<img src = "img/logo1.png">
-				</div>
-				<div class = "footer_logo2">
-					<img src = "img/logo2.png">
-				</div>
-				<div class = "footer_txt">
-					<b>ОСТАВАЯСЬ ДОМА, ОСТАВАЙСЯ СТИЛЬНЫМ С MARKET ISLAND</b>
-				</div>
-			</footer>
-		</body>
-	</html>
+@endsection('content')
