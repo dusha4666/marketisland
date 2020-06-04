@@ -11,7 +11,7 @@
 		<body>
 			<header>
 				<div class = "Logo">
-					<a href = "http://127.0.0.1:8000/index">
+					<a href = "http://127.0.0.1:8000">
 						<img src = "img/logo.png">
 					</a>
 				</div>

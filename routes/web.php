@@ -12,35 +12,10 @@ use Illuminate\Support\Facades\Route;
 | contains the "web" middleware group. Now create something great!
 |
 */
-
-Route::get('/', function () {
-    return view('welcome');
-});
-
-Route::get('/zima', function () {
-    return view('zima');
-});
-
-Route::get('/index', function () {
-    return view('index');
-});
-
-Route::get('/bryuki', function () {
-    return view('bryuki');
-});
-
-Route::get('/footbolki', function () {
-    return view('footbolki');
-});
-
-Route::get('/krossovki', function () {
-    return view('krossovki');
-});
-
-Route::get('/remni', function () {
-    return view('remni');
-});
-
-Route::get('/sumki', function () {
-    return view('sumki');
-});
+Route::get('/', 'ApiController@index');
+Route::get('/zima', 'ApiController@zima');
+Route::get('/bryuki', 'ApiController@bryuki');
+Route::get('/footbolki', 'ApiController@footbolki');
+Route::get('/krossovki', 'ApiController@krossovki');
+Route::get('/sumki', 'ApiController@sumki');
+Route::get('/remni', 'ApiController@remni');
