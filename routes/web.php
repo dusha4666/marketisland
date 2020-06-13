@@ -19,3 +19,4 @@ Route::get('/footbolki', 'ApiController@footbolki');
 Route::get('/krossovki', 'ApiController@krossovki');
 Route::get('/sumki', 'ApiController@sumki');
 Route::get('/remni', 'ApiController@remni');
+Route::get('/getBaskets', 'ApiController@getBaskets');

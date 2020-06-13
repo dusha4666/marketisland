@@ -34,4 +34,8 @@ class ApiController extends Controller
     {
         return view('krossovki');
     }
+	public function getBaskets(Request $request)
+    {
+        return (new BasketController())->show();
+    }
 }
