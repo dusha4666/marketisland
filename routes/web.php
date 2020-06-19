@@ -20,3 +20,5 @@ Route::get('/krossovki', 'ApiController@krossovki');
 Route::get('/sumki', 'ApiController@sumki');
 Route::get('/remni', 'ApiController@remni');
 Route::get('/getBaskets', 'ApiController@getBaskets');
+Route::get('/reg', 'Apicontroller@reg');
+Route::get('/enter', 'Apicontroller@enter');
